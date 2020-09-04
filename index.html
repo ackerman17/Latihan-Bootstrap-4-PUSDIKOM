@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+
+<!-- Latihan Breadcrumb -->
+  <div class="row mt-3">
+    <div class="col">
+      <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Profil</a></li>
+        <li class="breadcrumb-item active">About</li>
+      </ol>
+    </nav>
+    </div>
+  </div>
+  <!-- Akhir Breadcrumb -->
+
+  <div class="row">
+    <div class="col-md-8">
+    <h1 class="alert alert-success">Latihan Form</h1>
+  </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8">
+<form>
+  <div class="form-group">
+    <label for="username">Username : </label>
+    <input type="text" class="form-control" id="username" placeholder="Username">
+  </div>
+
+  <div class="form-group">
+    <label for="password">Password : </label>
+    <input type="password" class="form-control" id="password" placeholder="Password">
+  </div>
+
+  <div class="form-group">
+    <button type="submit" class="btn btn-success">Simpan</button>
+  </div>
+
+</form>
+
+</div>
+  </div>
+
+
+<!-- Latihan Table -->
+<div class="row">
+  <div class="col-md-8 mt-2 mb-5">
+
+    <div class="row">
+      <div class="col-md-8 mt-5">
+        <h1 class="alert alert-primary">Latihan Table</h1>
+      </div>
+    </div>
+
+    <table class="table table-bordered table-hover table-striped bg-warning text-light">
+      <thead class="bg-primary text-light">
+        <tr>
+        <td>No</td>
+        <td>Nama</td>
+        <td>NIM</td>
+        <td>Alamat</td>
+        <td>Aksi</td>
+      </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+        <td>1</td>
+        <td>Uchiha Sasuke</td>
+        <td>1800100101</td>
+        <td>Konohagakure</td>
+        <td>
+          <button class="badge badge-info">Edit</button>
+          <button class="badge badge-danger">Hapus</button>
+        </td>
+      </tr>
+
+        <tr>
+        <td>2</td>
+        <td>Uzumaki Naruto</td>
+        <td>180019191</td>
+        <td>Kirigakure</td>
+        <td>
+          <button class="badge badge-info">Edit</button>
+          <button class="badge badge-danger">Hapus</button>
+        </td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Madara Uchiha</td>
+        <td>170101010</td>
+        <td>Sunagakure</td>
+        <td>
+          <button class="badge badge-info">Edit</button>
+          <button class="badge badge-danger">Hapus</button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+
+<!-- Akhir Container -->
+</div>
+
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
